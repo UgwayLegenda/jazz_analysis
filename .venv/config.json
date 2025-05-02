@@ -1,1 +1,8 @@
-
+{
+  "genius_token": "hEkFzGemZigOyc67xbSGFH67oBRSwyOjXySpMOS5h43hO5nzf5FXqLTnxduxQ_4f",
+  "discogs_token": "SzqzSwKWBsoKDsHanCxSedwyBcToWOznHSAAaBQc",
+  "spotify": {
+    "client_id": "096d9105ab114e15963e8a59077ea444",
+    "client_secret": "2364b46d8582408c96a98a89b204208b"
+  }
+}
