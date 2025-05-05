@@ -1,7 +1,5 @@
 import pandas as pd
 import json
-import spotipy
-from spotipy import SpotifyClientCredentials
 from youtube_search import YoutubeSearch
 
 
