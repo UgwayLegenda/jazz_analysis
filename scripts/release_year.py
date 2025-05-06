@@ -18,7 +18,7 @@ def get_discogs_year(artist, title):
     except:
         return None
 
-lyrics = pd.read_csv("C:\\Users\yaros\Downloads\lyr_dur1_sec.csv")
+lyrics = pd.read_csv("data/lyr_dur1_sec.csv")
 lyrics["year"] = lyrics.apply(lambda row: get_discogs_year(row["artist"], row["title"]), axis=1)
 
 final_lyrics = lyrics.to_csv('final_lyrics', index=False)
