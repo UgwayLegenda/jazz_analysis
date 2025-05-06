@@ -1,1 +1,5 @@
-
+scikit-learn
+lyricsgenius
+spacy
+nltk
+seaborn
