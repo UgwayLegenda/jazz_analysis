@@ -2,11 +2,12 @@ import requests
 import json
 import pandas as pd
 
+#Загрузим необходимый токен для доступа к сайту
 with open(".venv/config.json") as f:
     config = json.load(f)
 DISCOGS_TOKEN = config["discogs_token"]
 
-
+#Получим год релиза песни
 def get_discogs_year(artist, title):
     url = f"https://api.discogs.com/database/search?q={artist}+{title}&type=release"
     headers = {"Authorization": f"Discogs token={DISCOGS_TOKEN}"}
