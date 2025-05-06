@@ -6,7 +6,7 @@ from youtube_search import YoutubeSearch
 with open(".venv/config.json") as f:
     config = json.load(f)
 
-lyrics = pd.read_csv('data/final_lyrics.csv')
+lyrics = pd.read_csv('data/lyrics_all.csv')
 # Получим продолжительность треков
 def get_youtube_duration(artist, title):
     try:
