@@ -29,7 +29,7 @@ cd hh-data-scientist-analysis ``
 │   ├── lyrics_all.csv
 │   ├── lyr_dur_sec1.csv
 │   └── final_lyrics.csv
-├── .venv  <- Конфиг с ключами lyricsgenius, discogs
-│   └── app.py
+├── .env  <- Конфиг с ключами lyricsgenius, discogs
+│  
 └── .gitignore
 </pre>
