@@ -8,12 +8,16 @@ jazz_analysis - темплейт для анализа текстов песен
 
 ## Как воспроизвести исследование
 **1. Клонируйте репозиторий**
-git clone https://github.com/UgwayLegenda/jazz_analysis.git
-cd hh-data-scientist-analysis 
+
+``git clone https://github.com/UgwayLegenda/jazz_analysis.git
+cd hh-data-scientist-analysis ``
+
 **2. Запустите Jupyter Notebook, откройте template_rc2 и прокликайте все ячейки. Вы великолепны.**
-jupyter notebook
- 
+
+``jupyter notebook``
+
 ## Структура проекта
+ <pre>
 ├── README.md               <- Описание проекта, авторов, инструкции
 ├── requirements.txt        <- Все зависимости для запуска проекта. Можно установить автоматически через Jupyter ноутбук.
 ├── notebooks               <- Jupyter ноутбук с самим проектом.
@@ -28,4 +32,4 @@ jupyter notebook
 ├── .venv  <- Конфиг с ключами lyricsgenius, discogs
 │   └── app.py
 └── .gitignore
-
+</pre>
