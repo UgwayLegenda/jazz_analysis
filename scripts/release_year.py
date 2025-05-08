@@ -1,11 +1,12 @@
 import requests
 import json
 import pandas as pd
+import os
+from dotenv import load_dotenv()
 
 #Загрузим необходимый токен для доступа к сайту
-with open(".venv/config.json") as f:
-    config = json.load(f)
-DISCOGS_TOKEN = config["discogs_token"]
+
+DISCOGS_TOKEN = os.getenv('DISCOGS_TOKEN')
 
 #Получим год релиза песни
 def get_discogs_year(artist, title):
