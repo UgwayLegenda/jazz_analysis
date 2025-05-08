@@ -3,7 +3,8 @@ import lyricsgenius
 import pandas as pd
 from lyricsgenius import Genius
 import re
-
+import os
+from dotenv import load_dotenv
 
 
 def clean_genius_lyrics(text):
@@ -34,10 +35,10 @@ def clean_genius_lyrics(text):
     text = "\n".join([line.strip() for line in text.split("\n") if line.strip()]) # удаляем пустые строки и лишние пробелы и соединяем полученные строки
     return text.strip()
     
-with open(".venv/config.json") as f:
-    config = json.load(f)
 
-genius = lyricsgenius.Genius(config["genius_token"])
+load_dotenv()
+
+genius = lyricsgenius.Genius(os.getenv('GENIUS_TOKEN'))
 genius.remove_section_headers = True # удаляем секции вида "[Chorus], [Verse n]" и похожего типа
 artists = ['Frank Sinatra', 'Dean Martin', 'Nat "King" Cole', 'Louis Armstrong']
 
