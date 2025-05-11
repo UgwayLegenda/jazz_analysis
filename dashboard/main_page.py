@@ -1,4 +1,6 @@
 import streamlit as st
+import plotly
+
 
 st.set_page_config(
     page_title="Jazz",
