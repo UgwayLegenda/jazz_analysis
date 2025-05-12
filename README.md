@@ -16,6 +16,16 @@ cd hh-data-scientist-analysis ``
 
 ``jupyter notebook``
 
+## Как воспользоваться дашбордом
+
+**1 способ. Локально**
+
+Скачать директорию ``dashboard`` и в терминале запустить скрипт следующим образом: `run streamlit dashboard/main_page.py`
+
+**2 способ. Без скачивания**
+
+Наш дашборд задеплоен на Streamlit Cloud, чтобы им воспользоваться перейдите по ссылке: https://jazzanalysis-hss5whlrmvestbg8e9efub.streamlit.app
+
 ## Структура проекта
  <pre>
 ├── README.md               <- Описание проекта, авторов, инструкции
