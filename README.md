@@ -47,9 +47,9 @@ cd hh-data-scientist-analysis ``
 │   │   ├── 3_analysis.py
 │   │   └── 4_conclusion.py
 │   ├── data                    <- Все используемые и полученные данные для дэшборда
-│   │   ├── lyrics_all.csv
-│   │   ├── lyr_dur_sec1.csv
-│   │   └── final_lyrics.csv
+│   │   ├── final_lyrics.csv
+│   │   ├── lyrics_for_analysis1.csv
+│   │   └── pos_analysis1.csv
 │   ├── requirements.txt        <- Все зависимости для запуска проекта. Копия файла выше.
 │   ├── main_page.py  
 ├── .env  <- Конфиг с ключами lyricsgenius, discogs
