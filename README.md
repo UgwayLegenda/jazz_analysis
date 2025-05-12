@@ -34,6 +34,7 @@ cd hh-data-scientist-analysis ``
 │   └── template_rc2.ipynb
 ├── scripts                 <- Python-скрипты (сбор данных, текст и продолжительность треков. Продублированы в коде самого проекта.)
 │   ├── duration.py
+|   ├── release_year.py
 │   └── lyrics.py
 ├── data                    <- Все используемые и полученные данные
 │   ├── lyrics_all.csv
