@@ -72,7 +72,7 @@ cd hh-data-scientist-analysis ``
 ├── README.md               <- Описание проекта, авторов, инструкции
 ├── requirements.txt        <- Все зависимости для запуска проекта. Можно установить автоматически через Jupyter ноутбук.
 ├── notebooks               <- Jupyter ноутбук с самим проектом.
-│   └── template_rc2.ipynb
+│   └── jazz_final.ipynb
 ├── scripts                 <- Python-скрипты (сбор данных, текст и продолжительность треков. Продублированы в коде самого проекта.)
 │   ├── duration.py
 |   ├── release_year.py
